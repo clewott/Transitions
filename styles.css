@@ -1,0 +1,97 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: URL("http://subtlepatterns.com/patterns/congruent_outline.png");
+}
+
+header {
+  height: 300px;
+}
+.header-box h2 {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+nav ul {
+  text-align:center;
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 2px solid grey;
+  background-color: black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  color: grey;
+  transition: 2s ease-out;
+}
+.bio:hover {
+  background-image: URL("http://www.licenseplatecentral.com/img/plates/sc/schools/SC-College-of-Charleston-License-Plate.jpg");
+  color: black
+}
+
+.family:hover {
+  border-radius: 100%;
+  background-image: URL("images/family.jpg");
+  height: 200px;
+  width: 400px;
+  color: red;
+}
+
+.dog {
+  transition: 2s ease-out;
+}
+
+.dog:hover {
+  background-image: url("https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1544981_10202835402587892_2045226243_n.jpg?oh=a913b466f28fd2443c4083fdbe2d4896&oe=5451AC35&__gda__=1413714154_0320e25f76adb6d1d654000d289a4c7d");
+  width:450px;
+  height:450px;
+  transform:rotate(720deg);
+  color: black
+}
+
+.siblings {
+  transition: all 2s ease-out;
+}
+.siblings:hover {
+
+}
+.pic {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 0;
+    text-align: center;
+    background: white;
+    transition: height 0.7s ease-out;
+}
+
+.pic:hover > .text {
+    height: 150px;
+}
+.matt:hover {
+  height: 160px;
+  width: 190px;
+  color: black;
+  background-image: URL("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c1.12.199.199/p200x200/10471261_602229755421_1330802364277538532_n.jpg?oh=d8ae2a65cf860c9fd8e8da10a248a33d&oe=5438B5F4&__gda__=1415051064_1c51a0302f286ad7c317340d07f04dbb")
+}
+
+.Charleston:hover {
+  padding-top: 100px;
+  margin-left: 50px;
+  color: white;
+  background-image: URL("http://www.jsilkstonephotography.com/img/s5/v122/p881707464-11.jpg");
+}
