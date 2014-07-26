@@ -9,6 +9,16 @@ body {
   color: white;
   text-align: center;
   padding-top: 80px;
+  transition: all .5s ease;
+}
+.header:hover {
+  background-color: grey;
+  color: black;
+  border-radius: 50px;
+}
+.header:hover h2 {
+  margin: 0px 0px 300px 200px;
+  font-size: 100px;
 }
 
 nav ul {
@@ -61,4 +71,54 @@ nav ul li {
   margin-left: 50px;
   color: white;
   background-image: URL("http://www.jsilkstonephotography.com/img/s5/v122/p881707464-11.jpg");
+}
+.img1 {
+  text-align: center;
+  margin-top: 20px;
+  transition: all 2s ease;
+}
+.img1 img {
+  transition: all 2s ease;
+}
+.img1 img:hover {
+  transform:scale(1.2);
+}
+.test-hidden {
+  margin: 0 auto;
+  overflow: hidden;
+  transition: height 2s ease, width 2s ease;
+  height: 60px;
+  width: 405px;
+}
+.test-hidden h2 {
+  color: white;
+  text-align: center;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  /* background-color: black; */
+}
+.test-hidden:hover {
+  height: 300px;
+  width: 405px;
+  margin: 0 auto;
+}
+.anothertest {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 405px;
+  height: 50px;
+  transition: height 2s ease;
+}
+.anothertest h2 {
+  text-align: center;
+}
+.anothertest:active {
+  height: 300px;
+  width: 405px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+footer {
+  width: 200px;  
 }
